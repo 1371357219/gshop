@@ -83,7 +83,6 @@ export default {
     },
     del_tex(){
       this.$nextTick(()=>{
-        
         this.search_text=''
         this.$refs.search_input.focus()
         
